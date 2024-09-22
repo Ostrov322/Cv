@@ -1,2 +1,2 @@
 # Cv
-# https://Ostrov322.github.io/Cv.Html
+# https://ostrov322.github.io/Cv/
