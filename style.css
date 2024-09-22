@@ -1,3 +1,80 @@
 *{
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.FIO{
+    margin:auto 30px auto auto;
+}
+header{
+    height: 20vh;
+    display: flex;
+    background: linear-gradient(rgb(159, 242, 245), rgb(237, 254, 255));
+}
+main{
+    flex-grow: 1;
+    background-color: rgb(237, 254, 255);
+
+    display: flexbox;
+    flex-shrink: 0;
+
+}
+
+.exp, .cours, .about, .Codeexmp{
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    margin:15px 15vh auto;
+    border: 1px 1px 1px 1px;
+    flex-wrap: wrap;
+    box-shadow: 3px 3px 0 black;
+
+
+    height: min(10vw, 300px);
+    height: max(50%, 500px);
+	flex-direction: column;
+}
+aside{ 
+    flex-direction: row;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+
+      width: 10vh;
+      height: 100vh;
+    float: right;
+background-color:rgb(237, 254, 255);}
+.Skills{
+    text-align:center;
+}
+footer{
+
+    flex-wrap: wrap;
+    display: flex;
+    background: linear-gradient( rgb(237, 254, 255), rgb(159, 242, 245));
+    flex-shrink: 0;
+    height: 10vh;
+padding-bottom: 40px;
+}
+h4{
+margin: 0;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+
+.TG, .Git, .Dis, .Gmail{
+    border: 1px solid black;
+    box-shadow: 3px 3px 0 black;
+
+    margin:auto auto 4px;
+
+    background-color: rgb(143, 72, 72);
     
+    height: 30px;
+    width: 200px;
+    border: 1px 1px 1px 1px;
 }
